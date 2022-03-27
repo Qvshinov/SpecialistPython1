@@ -4,3 +4,8 @@
 
 number = float(input())  # Считываем вещественное число
 
+number = float(input("n: "))
+if number > 0:
+	print("Положительное")
+else:
+	print("Отрицательное")
